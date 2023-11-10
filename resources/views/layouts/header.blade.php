@@ -5,7 +5,7 @@
 
                 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                     <div class="brand-logo clearfix">
-                        <a href="index.html" class="brand-link">
+                        <a href="{{ route('home') }}" class="brand-link">
                         <img src="{{ asset('assets/images/logo_akpany-removebg-preview.png') }}" alt="Logo">
 
                         </a>

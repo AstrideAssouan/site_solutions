@@ -62,7 +62,7 @@
             </span>
 
             <div class="brand-logo text-center clearfix">
-                <a href="index.html" class="brand-link">
+                <a href="{{ route('home') }}" class="brand-link">
                     <img src="assets/images/logo_akpany-removebg-preview.png" alt="logo_not_found">
                 </a>
             </div>
@@ -73,21 +73,18 @@
 
                 <ul class="clearfix">
                     <li class="active dropdown">
-                        <a href="#!" >Accueil</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="index.html">Services</a></li>
-                            <!-- <li><a href="index-2.html">Home V.2</a></li> -->
-                        </ul>
+                        <a href="{{ route('home') }}" >Accueil</a>
+                        <li><a href="#pricing">Services</a></li>
                     </li>
-                    <li><a href="#!">Réalisations</a></li>
+                    <li><a href="#travaux">Réalisations</a></li>
 
-                    <li><a href="{{ url('emploi') }}">Offres d'emploi</a></li>
-
-
-                    <li><a href="#!">Equipe</a></li>
+                    <li><a href="{{ url('job') }}">Offres d'emploi</a></li>
 
 
-                    <li><a href="#!">Contact</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+
+
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </div>
 
